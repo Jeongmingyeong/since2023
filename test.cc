@@ -1,6 +1,15 @@
 #include <iostream>
+#include <string>
 
 int main() {
-	std::cout << "Hello world!" << std::endl;
+	int a;
+
+	if (true) {
+		a = 1 + 2;
+	} else {
+		// a = "str";
+	}
+
+	// a = "str";
 	return 0;
 }
